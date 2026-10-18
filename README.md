@@ -27,12 +27,12 @@ Android-додаток для перегляду графіків відключ
 - Оновлення: pull-to-refresh і при кожному переході на адресу
 - Material Design 3, українська мова
 
-## Запуск
+## Збірка
 
 ```bash
 cd dtek_outages
 flutter pub get
-flutter run
+flutter build apk --release
 ```
 
 Потрібен Flutter 3.16+ і Android SDK.
